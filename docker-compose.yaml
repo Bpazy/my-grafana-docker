@@ -2,5 +2,7 @@ version: "3.5"
 services:
     grafana:
         image: bpazy/my-grafana-docker:1.0.0
+        volumes: 
+            - grafana-storage:/var/lib/grafana
         ports:
             - "80:3000"

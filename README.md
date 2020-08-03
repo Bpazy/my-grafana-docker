@@ -3,5 +3,5 @@
 
 my-grafana-docker is Grafana image with some plugins.
 
-## Added plguins
+## Added plugins
 1. grafana-image-renderer
